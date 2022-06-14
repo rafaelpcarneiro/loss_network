@@ -3,10 +3,11 @@
 The file *perfect_simulation.py* implements a class responsible to
 perform the perfect simulation for the Loss Network Point Process.
 
-The file *persistent_homology_perfect_simulatio.py* implemets an exemple
-on how to use the class described above and it calculates its persistent
-homology, which  is obtained from the point process of an invariant measure calculated on
-an interval $I=[a, b] \subseteq \mathbb{R}$.
+The file **persistent_homology_perfect_simulatio.py** implemets an exemple
+on how to use the class described above. The output is the persistent
+homology obtained from the point process of the invariant measure calculated 
+from **perfect_simulation.py**, on
+the interval $I=[a, b] \subseteq \mathbb{R}$.
 
 ## References
 1. Nancy L. Garcia, Nevena Maric, *Improved bounds for perfect
